@@ -1,0 +1,15 @@
+{
+  "name": "1-turborepo",
+  "scripts": {
+    "build": "turbo run build",
+    "test": "turbo run test",
+    "start": "turbo run start"
+  },
+  "workspaces": [
+    "packages/*",
+    "services/*"
+  ],
+  "devDependencies": {
+    "turbo": "^1.10.8"
+  }
+}

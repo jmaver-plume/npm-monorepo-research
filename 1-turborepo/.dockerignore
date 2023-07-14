@@ -1,0 +1,14 @@
+node_modules
+**/**/.turbo
+**/**/node_modules
+**/**/dist
+.DS_Store
+**/.DS_Store
+**/**/.DS_Store
+
+logs
+**/**/logs
+*.log
+**/**/*.log
+npm-debug.log*
+**/**/npm-debug.log*
