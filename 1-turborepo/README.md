@@ -2,6 +2,7 @@
 
 ```shell
 npm install
+turbo run start
 ```
 
 ## Running npm script for a specific workspace

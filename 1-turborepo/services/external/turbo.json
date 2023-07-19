@@ -1,0 +1,13 @@
+{
+  "extends": ["//"],
+  "pipeline": {
+    "build": {
+      "dependsOn": ["^build"]
+    },
+    "test": {
+      "inputs": [
+        "src/**/*.js"
+      ]
+    }
+  }
+}
